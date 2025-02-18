@@ -1,0 +1,9 @@
+
+spring:
+  application:
+    name: employee-chatbot
+  ai:
+    openai:
+      api-key: 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
+server:
+  port: 5050

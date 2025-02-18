@@ -1,0 +1,38 @@
+### GET request to example server
+POST localhost:8080/employee/chat/1
+content-type: application/json
+
+{
+    "text": "Is remote work allowed in the company?"
+}
+
+###
+POST localhost:8080/employee/chat/1
+content-type: application/json
+
+{
+  "text": "What are working hours?"
+}
+
+###
+POST localhost:8080/employee/chat/1
+content-type: application/json
+
+{
+  "text": "Where is the first aid kit?"
+}
+
+###
+POST localhost:8080/employee/chat/1
+content-type: application/json
+
+{
+  "text": "How should one behave?"
+}
+###
+POST localhost:5050/employee/chat/1
+content-type: application/json
+
+{
+  "text": "What is Employee Referral program?"
+}
