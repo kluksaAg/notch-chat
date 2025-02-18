@@ -23,9 +23,9 @@ class VectorDatabaseInitializer {
     void init() {
         List<Document> documents = new ArrayList<>();
 
-        documents.addAll(new ParagraphPdfDocumentReader("file:///home/kluksa/Downloads/mob.pdf").get());
-        documents.addAll(new ParagraphPdfDocumentReader("file:///home/kluksa/Downloads/racun.pdf").get());
-        documents.addAll(new ParagraphPdfDocumentReader("file:///home/kluksa/Downloads/onborad.pdf").get());
+        documents.addAll(new ParagraphPdfDocumentReader("classpath:mob.pdf").get());
+        documents.addAll(new ParagraphPdfDocumentReader("classpath:racun.pdf").get());
+        documents.addAll(new ParagraphPdfDocumentReader("classpath:onborad.pdf").get());
         var textSplitter = new TokenTextSplitter();
         var transformedDocuments = textSplitter.apply(documents);
 
